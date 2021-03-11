@@ -1,2 +1,1 @@
-# projetos
-Projetos da Faculdade Banco de Dados Fatec
+Repósitorio para visualização dos projetos ou trabalhos realizado na FATEC
