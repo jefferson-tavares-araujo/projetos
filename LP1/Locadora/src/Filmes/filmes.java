@@ -50,14 +50,26 @@ public class filmes {
 			
 			//métodos de classes
 			public void assistir(){
-				System.out.println("Sentar no sofá");
+				System.out.println("Escolher filme");
+				System.out.println("Pantera Negra");
 			}
 			
 			public void comer (){
 			System.out.println("Fazer pipoca");
+			System.out.println("Com manteiga");
 			}
 			
-			
+			public boolean beber(boolean obd){
+				if (obd) {
+					System.out.println("Guarana");
+				}
+				else
+				{
+					System.out.println("Coca cola");
+				}
+				
+				return obd;
+			}
 				
 			
 
@@ -69,6 +81,8 @@ public class filmes {
 		o2.assistir();
 		filmes o3=new filmes("Minions","Comedia","João Diretor","DVD");
 		o3.comer();
+		filmes o4=new filmes("Vingadores","aventura","Joss Wheldon","DVD");
+		o4.beber(true);
 		
 		
 				
